@@ -40,7 +40,7 @@ class ViewController: UIViewController,JWPlayerDelegate {
     func CreateVideoPlayer(){
         
         
-        var config : JWConfig = JWConfig(contentURL: "http://content.bitsontherun.com/videos/bkaovAYt-DZ7jSYgM.mp4")
+        let config : JWConfig = JWConfig(contentURL: "http://content.bitsontherun.com/videos/bkaovAYt-DZ7jSYgM.mp4")
         
         config.image = "http://content.bitsontherun.com/thumbs/bkaovAYt-480.jpg"
         config.title = "Vertex Demo"
