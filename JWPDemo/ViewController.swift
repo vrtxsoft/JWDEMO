@@ -12,10 +12,7 @@ import UIKit
 
 class ViewController: UIViewController,JWPlayerDelegate {
     
-    
-    
-    
-    var player:JWPlayerController!
+        var player:JWPlayerController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +23,6 @@ class ViewController: UIViewController,JWPlayerDelegate {
         
         CreateVideoPlayer()
         self.view.addSubview(player.view)
-        
-        
-        
-        
         
         
         
