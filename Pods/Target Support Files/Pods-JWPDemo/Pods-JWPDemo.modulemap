@@ -1,0 +1,6 @@
+framework module Pods_JWPDemo {
+  umbrella header "Pods-JWPDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
