@@ -49,15 +49,7 @@ class ViewController: UIViewController,JWPlayerDelegate {
         config.premiumSkin = JWPremiumSkinRoundster
         
         
-       //MARK: JW AdConfig ///
-        
-        let adConfig: JWAdConfig = JWAdConfig()
-        adConfig.adMessage = "Ad duration countdown xx"
-        adConfig.skipMessage = "Skip in xx"
-        adConfig.skipText = "Move on"
-        adConfig.skipOffset = 3
-        adConfig.adClient = vastPlugin
-        config.adConfig = adConfig
+           
         
         
         config.autostart = true
